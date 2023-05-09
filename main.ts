@@ -1,4 +1,6 @@
-input.onGesture(Gesture.ScreenUp, function () {
-    music.playMelody("F A F F G - A B ", 120)
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Heart)
 })
-basic.showIcon(IconNames.Heart)
+input.onGesture(Gesture.Shake, function () {
+    led.enable(false)
+})

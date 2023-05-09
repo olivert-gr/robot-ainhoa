@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "TobbieII": "github:kaku111/pxt-tobbieii#v2.0.3"
+        "TobbieII": "github:kaku111/pxt-tobbieii#v2.0.3",
+        "radio-broadcast": "*"
     },
     "files": [
         "main.blocks",
